@@ -13,14 +13,13 @@ mgarcia@mordor:~/Documents/Work/HandsOnMachineLearn$ python3 -m venv venv
 And installing the requeriments
 
 ```
-(venv) mgarcia@mordor:~/Documents/Work/HandsOnMachineLearn$ python -m pip install -U jupyter matplotlib numpy pandas scipy scikit-learn
-(venv) mgarcia@mordor:~/Documents/Work/HandsOnMachineLearn$ pip freeze > requirements.txt
+(venv) mgarcia@arda:~/Documents/HandsOnMachineLearn$ pip install -U jupyterlab matplotlib numpy pandas scipy scikit-
+learn 
+(venv) mgarcia@arda:~/Documents/HandsOnMachineLearn$ pip freeze > requirements.txt
 ```
 
-Registering the _venv_ with Jupyter
+Start `jupyter-lab`
 
 ```
-(venv) mgarcia@mordor:~/Documents/Work/HandsOnMachineLearn$ python3 -m ipykernel install --user --name=python3
-Installed kernelspec python3 in /home/mgarcia/.local/share/jupyter/kernels/python3
-(venv) mgarcia@mordor:~/Documents/Work/HandsOnMachineLearn$
+(venv) mgarcia@arda:~/Documents/HandsOnMachineLearn$ jupyter-lab
 ```
