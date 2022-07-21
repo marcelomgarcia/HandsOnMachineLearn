@@ -10,6 +10,12 @@ Creating the virtual environment
 mgarcia@mordor:~/Documents/Work/HandsOnMachineLearn$ python3 -m venv venv
 ```
 
+Activate the environment
+
+```
+PS C:\Users\garcm0b\Work\HandsOnMachineLearn> . .\venv\Scripts\activate
+```
+
 And installing the requeriments
 
 ```
